@@ -1,23 +1,26 @@
 body{
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 40% 40% 40%;
     width: 1230px;
+    text-align: center;
+    margin-right: 250px;
 }
 
 .col{
     display: grid;
-    grid-template-columns: auto auto;
-    margin: 20px;
+    grid-template-columns: repeat(3, 35%);
 }
 
 .col2{
-    margin: 20px;
+    margin-left: 50px;
+    margin-top: 30px
+
 }
 
 .player{
@@ -25,8 +28,9 @@ body{
     padding: 40px 0px 0px;
     margin: 20px;
     border-radius: 10px;
-    width: 180px;
+    width: 150px;
 }
+
 
 
 .player img{
